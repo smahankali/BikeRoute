@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/input_routeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/routeName"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <EditText android:id="@+id/editText_routeName"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/input_routeName"
+              android:hint="routeName" />
+    <TextView
+        android:id="@+id/input_startLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startLatitude"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/editText_routeName"
+        android:layout_alignParentLeft="true"
+        />
+    <EditText android:id="@+id/editText_startLatitude"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:layout_below="@+id/input_startLatitude"
+              android:hint="startLatitude" />
+    <TextView
+        android:id="@+id/input_startLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startLongitude"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/editText_startLatitude"
+        android:layout_alignParentLeft="true"
+        />
+    <EditText android:id="@+id/editText_startLongitude"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:hint="startLongitude"
+              android:layout_below="@+id/input_startLongitude"
+        />
+    <TextView
+        android:id="@+id/input_endLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/endLatitude"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/editText_startLongitude"/>
+    <EditText android:id="@+id/editText_endLatitude"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/input_endLatitude"
+              android:hint="endLatitude"
+        />
+    <TextView
+        android:id="@+id/input_endLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/endLongitude"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/editText_endLatitude"/>
+    <EditText android:id="@+id/editText_endLongitude"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/input_endLongitude"
+              android:hint="endLongitude"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_endLongitude"
+        android:text="Store"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>
+

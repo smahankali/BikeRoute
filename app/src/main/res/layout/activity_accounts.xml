@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <EditText android:id="@+id/input_email"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                  android:layout_below="@+id/login"
+              android:hint="Email" />
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/input_email"
+        android:layout_alignParentLeft="true"
+        />
+    <EditText android:id="@+id/input_password"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:layout_below="@+id/password"
+              android:hint="password" />
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/input_password"
+        android:layout_alignParentLeft="true"
+        />
+    <EditText android:id="@+id/input_first_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:hint="first_name"
+              android:layout_below="@+id/first_name"
+             />
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/input_first_name"/>
+    <EditText android:id="@+id/input_last_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                android:layout_below="@+id/last_name"
+              android:hint="last_name"
+              />
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_below="@+id/input_last_name"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    </RelativeLayout>
+

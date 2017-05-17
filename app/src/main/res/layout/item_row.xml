@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="7dp">
+
+   <LinearLayout
+       android:id="@+id/linear"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="7">
+       <Button
+           android:id="@+id/item_button"
+           android:layout_width="15dp"
+           android:layout_height="wrap_content"
+           android:text="GO"
+           android:layout_weight="1"
+           />
+       <TextView
+        android:id="@+id/item_routename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:paddingRight="2dp"
+         />
+       <TextView
+           android:id="@+id/startlatitude"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:paddingLeft="2dp"
+           android:paddingRight="2dp"
+           />
+       <TextView
+           android:id="@+id/startlongitude"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:paddingLeft="2dp"
+           android:paddingRight="2dp"
+           />
+       <TextView
+           android:id="@+id/endlatitude"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:paddingLeft="2dp"
+           android:paddingRight="2dp"
+           />
+       <TextView
+           android:id="@+id/endlongitude"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:paddingLeft="2dp"
+           android:paddingRight="2dp"
+           />
+       <TextView
+           android:id="@+id/item_used"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:paddingLeft="2dp"
+           android:paddingRight="2dp"
+           />
+   </LinearLayout>
+
+</android.support.v7.widget.CardView>
